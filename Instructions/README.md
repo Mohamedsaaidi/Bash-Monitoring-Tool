@@ -16,22 +16,31 @@ This script collects system metrics and logs them to a CSV file. Each execution 
 
 #### Script Contents and Explanation
 
-
+![text](https://github.com/Mohamedsaaidi/Bash-Monitoring-Tool/blob/main/Instructions/Images/Screenshot%202024-11-15%20at%2013.55.04.png)
 
 #### Configure Msmtp "~/.msmtprc
 
+
 account default
+
 host smtp.gmail.com
+
 port 587
+
 from your-email@gmail.com
+
 auth on
+
 user your-email@gmail.com
+
 passwordeval "gpg --no-tty -q -d ~/.password.gpg"
+
 tls on
+
 tls_starttls on
 
 
-###### Set up cron jobs to run the script automatically every hour.
+#### Set up cron jobs to run the script automatically every hour.
  
  "crontab -e" 
  
