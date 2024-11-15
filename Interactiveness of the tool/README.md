@@ -24,3 +24,5 @@ sudo apt install python3
 #### Execute the interface script:
 
 python3 monitor_ui.py
+
+![text](https://github.com/Mohamedsaaidi/Bash-Monitoring-Tool/blob/main/Instructions/Images/Screenshot%202024-11-15%20at%2016.24.30.png)
