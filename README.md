@@ -17,3 +17,7 @@ Sends a detailed system report via email every week.
 Easily change the critical thresholds and email notifications.
 
 
+### How secure is the email authentication process?
+Bash tool uses an App Password generated specifically for the Gmail account. This ensures your primary account password remains secure.
+
+Additionally, it is strongly recommended to store the App Password in an environment variable to avoid exposing it in the code.
