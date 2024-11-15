@@ -48,6 +48,19 @@ tls_starttls on
 
 
 0 0 * * SUN /home/mohamed/monitor_project/monitor.sh --weekly-report
- 
+
+
+#### Metrics.txt
+             
+             
+             Timestamp,  Fri, 2024-11-15 09:37:46,  
+             
+             CPU_Usage,  
+             2.1%,                   
+             Memory_Usage,    
+             18.50%,  
+             Disk_Usage          
+             60%
+
 
 
